@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 id="banner">Welcome to My Demo Site</h1>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </header>
+
+  <!-- Product Section -->
+  <section>
+    <h2>Products</h2>
+    <ul id="productList"></ul>
+  </section>
+
+  <!-- Newsletter Form -->
+  <section>
+    <h2>Subscribe to Our Newsletter</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="email" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Demo Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
